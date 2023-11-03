@@ -1,0 +1,138 @@
+/* This is a basic CSS template */
+
+/* Resetting some default styles */
+body, h1, p {
+    margin: 0; /* Resetting margin */
+    padding: 0; /* Resetting padding */
+  }
+  
+  /* Styling the body */
+  body {
+    font-family: Arial, sans-serif; /* Setting the font family */
+    line-height: 1.6; /* Setting the line height */
+    background-color: #f2f2f2; /* Setting the background color */
+  }
+  
+  /* Styling the header */
+  h1 {
+    font-size: 40px; /* Font size */
+    color: #333; /* Setting the text color */
+    text-align: center; /* put text in middle */
+    margin-top: 40px; /* add margin on top aka move down */
+  }
+
+  /* Styling paragraphs */
+  p {
+    padding-top: 0px; /* Setting padding around the paragraphs */
+    color: #666; /* Setting the text color */
+  }
+  
+  h2 {
+    color:rgb(60, 167, 167); /* change color */
+  }
+
+  h3 {
+    color: #333; /* change color */
+    margin-bottom: 0px; /* move it closer to h4 */
+  }
+
+  h4 {
+    color: black;
+    margin-top: 0px; /* move it closer to h3 */
+  }
+ 
+  /* Start the classes */
+
+  /* Styling a basic container */
+  .container {
+    width: 90%; /* Setting the width of the container */
+    margin: auto; /* Centering the container */
+    overflow: hidden; /* Hiding any overflow content */
+    display: flex;
+  }
+
+  /* Styling first and last name */
+  .first-name, .last-name {
+    display: block;
+  }
+
+  /* Split screen in 2 and this is the left part */
+  .left-side {
+    flex: 1; /* Occupy 1 part of the available space */
+    padding: 20px; /* Add some padding for spacing */
+  }
+
+  /* Split screen in 2 and this is the part */
+  .right-side {
+    flex: 1; /* Occupy 1 part of the available space */
+    padding: 20px;
+  }
+
+  /* make line */
+  .line {
+    width: 1px; /* Set the width of the line */
+    background-color: #333; /* Set the color of the line */
+    margin: 0 20px; /* Set the margin to create space around the line */
+  }
+  
+  .date {
+    font-family: 'Merriweather';
+    font-style: italic;
+    font-size: small;
+    padding-left: 8px;
+  }
+
+  .skill-list {
+    margin-top: -10px;
+    list-style-type: circle ;
+    color: #666;
+    font-style: oblique;
+  }
+
+
+
+
+
+
+  /* Styling links */
+  a {
+    text-decoration: none; /* Removing the underline from links */
+    color: #007bff; /* Setting the link color */
+  }
+  
+  
+  /* Styling a basic button */
+  .button {
+    display: inline-block; /* Setting the display to inline-block */
+    padding: 10px 20px; /* Setting padding for the button */
+    background: #007bff; /* Setting the background color */
+    color: #fff; /* Setting the text color */
+    border: none; /* Removing the border */
+    cursor: pointer; /* Changing the cursor to a pointer on hover */
+  }
+  
+  /* Styling a basic form */
+  form {
+    padding: 20px; /* Setting padding around the form */
+    border: 1px solid #ccc; /* Setting a border around the form */
+  }
+  
+  /* Styling form input fields */
+  input[type="text"], input[type="email"], textarea {
+    width: 100%; /* Setting the width of the input fields */
+    padding: 10px; /* Setting padding for the input fields */
+    margin-bottom: 20px; /* Setting margin bottom for the input fields */
+    border: 1px solid #ccc; /* Setting a border for the input fields */
+  }
+  
+  /* Styling form submit button */
+  input[type="submit"] {
+    width: 100%; /* Setting the width of the submit button */
+    padding: 10px; /* Setting padding for the submit button */
+    border: none; /* Removing the border */
+    background: #007bff; /* Setting the background color */
+    color: #fff; /* Setting the text color */
+    cursor: pointer; /* Changing the cursor to a pointer on hover */
+  }
+  
+  
